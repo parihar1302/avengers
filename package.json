@@ -1,22 +1,15 @@
 {
-  "name": "pencil-durability",
+  "name": "test-runners",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "code-and-tests.js",
   "scripts": {
-    "test": "mocha --require @babel/register"
+    "test": "jest",
+    "watch": "jest --watch *.js"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.5.5",
-    "@babel/core": "^7.5.5",
-    "@babel/node": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "@babel/register": "^7.5.5",
-    "chai": "^4.2.0",
-    "mocha": "^6.2.0"
+    "jest": "^21.2.1"
   }
 }
-
